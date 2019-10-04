@@ -12,3 +12,22 @@
 <h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
+<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
+<h1>week progress</h1>
+<h2>week2</h2>
+<p>先建立github倉儲，在clone到自己的隨身系統</p>
+<p>1.加入擊建立課程倉儲(cad2019)到近端上</p>
+<p>2.用git submodule add之指令</p>
+<p>3.要快速開啟近端時只要進入cmsimde，就能夠開啟python </p>
+<p>4.開啟python，就可以開啟自己網站進行修改</p>
+<p>5.修改完就可以commite push 即完成</p><h2>week3</h2>
+<p>1.先將<span>Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe</span></p>
+<p>2.<span> 打指令git clone </span><span>--recurse-submodules</span></p>
+<p><span>3.到untitle編輯cmakelist內之713及714行(加入#字號)</span></p>
+<p>4.進入資料夾<span>cd solvespace&gt;cd extlib&gt;cd libpng&gt;mkdir build&gt;cd build</span></p>
+<p><span>5.執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/><span>mingw32-make</span></span></p>
+<p>6.找到檔案<span> libpng.dll.a 更名, 更名名為 libpng_static.a</span></p>
+<p><span>7.回到 solvespace 目錄,建立 build 目錄後進入 build 資料夾</span></p>
+<p><span>8.在執行指令cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/><span>mingw32-make</span></span></p><h2>week4</h2>
+<p>1.對網站做更新</p>
+<p>2.上傳影片</p>
