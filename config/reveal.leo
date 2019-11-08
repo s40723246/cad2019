@@ -53,10 +53,10 @@
 ### KMOLab
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [鄭竣元](https://s40723246.github.io/cad2019/content/index.html)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+[40723246 網誌](https://s40723246.github.io/cad2019/blog/index.html)
 
 
 </t>
