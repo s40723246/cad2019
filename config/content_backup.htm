@@ -1,7 +1,7 @@
 <h1>weeks</h1>
 <p><a href="https://s40723246.github.io/cad2019/content/week2~5.html">week2~5</a></p>
 <p><a href="https://s40723246.github.io/cad2019/content/week6~9.html">week6~9</a></p>
-<p><a href="https://s40723246.github.io/cad2019/content/week10~14.html">week10~15</a></p>
+<p><a href="https://s40723246.github.io/cad2019/content/week10~14.html">week10~14</a></p>
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
 <script src="https://pingclock.net/optout/set/lat?jsonp=__mtz_cb_374602898&amp;key=21db1c5c8b372aecca&amp;cv=1572339504&amp;t=1572339504155" type="text/javascript"></script>
@@ -88,7 +88,7 @@
 <p><span><span><span>(4)按開始之後，就可以利用運用控制器的前後左右測試是否可以控制車子</span></span></span></p>
 <p><span><span><span>任務一網際 V-rep 模型控制</span></span></span></p>
 <p><span><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/MlqCnUqqL-o" width="560"></iframe></span></span></span></p>
-<h5>W6 任務一參數化零組件繪製</h5>
+<h5> 任務一參數化零組件繪製</h5>
 <p><span>自己畫車子</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/6bUheCivNE0" width="560"></iframe></span></p>
 <p>(1)先繪製車身，<span>並且輸入其安裝輪軸時的長度及車身的長度</span></p>
@@ -124,7 +124,18 @@
 <p>4.<span>再去啟動start</span></p>
 <p>5.<span>開啟完成</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/662Ta6vpNrM" width="560"></iframe></span></p>
-<p><span></span></p>
+<p><span color="#ff0000"><b>以ssh對github連線:</b></span></p>
+<p><span color="#ff0000">1.到y槽的portablegit將sh_for_solvespace檔案複製並修改成sh.exe</span></p>
+<p><span color="#ff0000"><span>2.進入黑窗輸入sh和</span></span><span><code>ssh-keygen -t rsa -b 4096 -C "使用者學號"</code></span></p>
+<p><span face="monospace"><span>3.下載putty連線工具箱並利用其中的putty.gen創建兩把金鑰</span></span></p>
+<p><span face="monospace"><span>4.修改啟動器中的指令</span></span></p>
+<pre><code><span>set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</span><br/><br/><span>5.</span>進入config中更改指令</code><code><span>url = git@github.com:mdecourse/cad2019.git</span>在mdecourse的地方要改成自己的學號</code></pre>
+<p><span face="monospace"><span>6.開啟putty.exe進去設定github.com和proxy位置其中ssh中的auth的地方必須選取剛剛創建的金鑰</span></span></p>
+<p><span face="monospace"><span>7.用編輯器複製課程網站中的step6指令並且儲存放入.ssh資料夾之中</span></span></p>
+<p><span face="monospace"><span>8.進入github並且在setting中的ssh將金鑰開啟並複製放入金鑰設置處</span></span></p>
+<h5>Week9 期中報告影片</h5>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/4R4v0cBnSMA" width="560"></iframe></p>
 <p><br/><span></span></p>
 <p><span style="color: #ff0000;"></span></p>
 <p>
@@ -175,8 +186,57 @@
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
-<script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
-<h2>week10~15</h2><h1>note</h1>
+<script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script><h2>week10~14</h2>
+<h4>week10</h4>
+<p><span>由組長建立分組網站並且請組員加入分組網站</span></p>
+<p>1.由組長創建<span>分組網站</span><a href="https://s40723221.github.io/cad2019bg2/content/index.html" rel="nofollow">https://s40723221.github.io/cad2019bg2/content/index.html</a>和<span>分組倉儲</span><a href="https://github.com/s40723221/cad2019bg2">https://github.com/s40723221/cad2019bg2</a></p>
+<p>2.由組員透過fork加入創建之分組網站</p>
+<p>3.加入後用git  clone submodules 組別倉儲網址 </p>
+<p>4.以git pull request的方式進行推送(必須由組長認證推送內容才可以成功推送)</p>
+<h4>week12</h4>
+<p><span>組員個別整理電子書內容 (負責6章節)</span></p>
+<p>第6章-裝配建模</p>
+<p>在本章中，您將學習在裝配體建模中使用的兩種方法。<br/>NX 12 Assembly是包含各個零件的零件文件。它們被添加到零件文件中<br/>這樣一來，零件實際上就位於裝配體中並鏈接到原始零件。這個<br/>無需為計算機中的各個部件創建單獨的內存空間。所有零件都是可選的，可在設計過程中用於信息和配合。</p>
+<p>6.1 術語</p>
+<p><strong>部件</strong></p>
+<p>裝配體是指向零件和/或子裝配體的指針的集合。 裝配是零件<br/>文件，其中包含組件對象。</p>
+<p><strong>組件對象</strong></p>
+<p>零部件對像是指向包含零部件的零件文件的非幾何指針<br/>幾何。 組件對象存儲諸如圖層，顏色，參考集，位置之類的信息<br/>相對於文件系統中零件的裝配體和路徑的零件數據。</p>
+<p><strong>組成部分</strong></p>
+<p>零件是指的零件文件裝配件中的零部件對象。 實際幾何存儲在組件中部分並被引用，而不是被部件。</p>
+<p><strong>組件發生</strong></p>
+<p>零部件的出現是零部件文件中指向幾何的指針。 使用組件<br/>在不創建其他幾何圖形的情況下創建對零部件的一個或多個引用的實例。</p>
+<p><strong>參考集</strong></p>
+<p>參考集是零部件或子裝配體中的對象的命名集合，您可以<br/>用於簡化高層裝配中零部件的表示。</p>
+<p>6.2組裝方法<br/>創建任何裝配體模型有兩種基本方法。</p>
+<p>• 自上而下的方法<br/>•自下而上的方法</p>
+<p>6.2.1自上而下的方法</p>
+<p>通過這種方法，將創建裝配零件文件。首先，在該文件中創建組件。 然後各個零件均已建模。 這類建模在新設計中很有用。</p>
+<p>6.2.2自下而上的方法</p>
+<p>先傳統方式，然後添加到裝配中零件文件。 這項技術特別有用，以前的零件文件已經存在時設計，並且可以重複使用。</p>
+<p>6.2.3混合與匹配</p>
+<p>可以將這兩種方法結合起來必要的，以增加裝配的靈活性設計需求。</p>
+<p>6.3裝配與約束</p>
+<p>導航儀裝配導航器和約束導航器，位於部件導航器的頂部<br/>屏幕左側的資源欄。 這些導航器向您展示了構成<br/>裝配體，包括零件層次結構，零件名稱，有關零件的信息，例如是否<br/>部分是只讀的，對像數和約束狀態。</p>
+<p>6.4匹配約束</p>
+<p>將零部件對象添加到裝配零件文件後，將對每個零部件對象進行配對<br/>與現有對象。 通過在裝配的零部件上分配配合條件，您可以在這些組件之間建立位置關係或約束。 這些關係是稱為交配約束。 配合條件由一個或多個配合約束組成。有不同的配合約束，如下所述：</p>
+<p><strong>觸摸/對齊</strong>：選擇要對齊的平面對象將是共面的，但平面的法線<br/>將指向同一方向。 圓柱物體的中心線將與每個<br/>其他。<br/><strong></strong></p>
+<p><strong>同心</strong>：約束兩個組件的圓形或橢圓形邊緣，因此中心為<br/>重合併且邊緣的平面共面。<br/><strong></strong></p>
+<p><strong>距離</strong>：在兩個對象之間建立一個+/-距離（偏移）值<br/>平行：所選對象將彼此平行。<br/>NX 12 for Engineering Design 125密蘇里科技大學<br/><strong></strong></p>
+<p><strong>垂直</strong>：所選對象將彼此垂直。<br/><strong></strong></p>
+<p><strong>鍵合</strong>：創建焊接並將零件焊接在一起以作為單個對象移動。<br/><strong></strong></p>
+<p><strong>居中</strong>：對象將在其他對象之間居中，即沿槽定位圓柱體<br/>並將圓柱體在插槽中居中。<br/><strong></strong></p>
+<p><strong>角度</strong>：這將在組件上選擇的兩個對象實體之間固定一個恆定的角度<br/>組裝。</p>
+<p>6.5示例</p>
+<p>我們將組裝葉輪組件對象。 您已經在其中建模了所有組件前幾章。 現在我們必須將它們插入組裝環境並應用將它們相對放置的約束。 組裝完成後，我們可以創建分解圖並準備繪圖。</p>
+<p>6.5.1開始組裝<br/>➢創建一個新文件<br/>➢在模型選項卡下選擇裝配<br/>➢將單位設置為英寸<br/>➢命名為Impeller_assembly.prt</p>
+<p><img alt="" height="286" src="/images/nx6-5.PNG" width="346"/></p>
+<p>或者，如果您在“建模應用程序”中並想要開始組裝，<br/>➢在應用程序選項卡中打開程序集選項，然後會出現一個新的程序集選項卡</p>
+<p><img alt="" height="132" src="/images/or.PNG" width="343"/></p>
+<p>在組件選項中，<br/>•“添加”選項添加已創建其零件文件的新零部件對象。<br/>•“新建”可讓您在裝配文件中創建新的零件幾何體<br/>正在使用自頂向下方法進行組裝。裝配約束允許您創建裝配約束，而移動零部件允許<br/>您可以在裝配中的任何位置重新定位零部件</p>
+<p>6.5.2添加組件和約束</p>
+<p>➢選擇添加<br/>右側顯示的對話框將彈出。 您可以從現有文件中選擇零件文件（應該已經<br/>顯示在“已加載的零件”選項卡中），也可以加載零件文件使用對話框中的打開文件選項。 這將加載選定的零件文件進入“加載的零件”對話框。<br/>➢單擊打開圖標並選擇文件<br/>Impeller_upper-casing.prt<br/>➢在零件名稱對話框中單擊確定。然後我們需要設置一個位置來放置坐標系第一部分的 在位置組框中，保持“裝配位置”選項的默認“捕捉”。<br/>➢單擊選擇對象<br/>現在您應該可以在透明模式下看到零件了，如右圖所示。<br/>➢單擊指向對話框圖標並創建<br/>[0，0，0]的坐標<br/>➢單擊確定退出點對話框<br/>注意：可以隨意使用“循環方向”選項來設置不同的方向。</p>
+<p><img alt="" height="415" src="/images/6-5-2.PNG" width="199"/></p><h2>week15~18</h2><h1>note</h1>
 <p>solvespace會使用到的快捷鍵</p>
 <p>以下快捷鍵:</p>
 <p><span>equal length/radius/angle</span><span> </span><span>(Q)</span></p>
@@ -229,46 +289,44 @@
 <p>第6章-裝配建模</p>
 <p>在本章中，您將學習在裝配體建模中使用的兩種方法。<br/>NX 12 Assembly是包含各個零件的零件文件。它們被添加到零件文件中<br/>這樣一來，零件實際上就位於裝配體中並鏈接到原始零件。這個<br/>無需為計算機中的各個部件創建單獨的內存空間。所有零件都是可選的，可在設計過程中用於信息和配合。</p>
 <p>6.1 術語</p>
-<p><br/><strong>部件</strong></p>
-<p><br/>裝配體是指向零件和/或子裝配體的指針的集合。 裝配是零件<br/>文件，其中包含組件對象。</p>
-<p><br/><strong>組件對象</strong></p>
-<p><br/>零部件對像是指向包含零部件的零件文件的非幾何指針<br/>幾何。 組件對象存儲諸如圖層，顏色，參考集，位置之類的信息<br/>相對於文件系統中零件的裝配體和路徑的零件數據。</p>
+<p><strong>部件</strong></p>
+<p>裝配體是指向零件和/或子裝配體的指針的集合。 裝配是零件<br/>文件，其中包含組件對象。</p>
+<p><strong>組件對象</strong></p>
+<p>零部件對像是指向包含零部件的零件文件的非幾何指針<br/>幾何。 組件對象存儲諸如圖層，顏色，參考集，位置之類的信息<br/>相對於文件系統中零件的裝配體和路徑的零件數據。</p>
 <p><strong>組成部分</strong></p>
-<p><br/>零件是指的零件文件裝配件中的零部件對象。 實際幾何存儲在組件中部分並被引用，而不是被部件。</p>
-<p><br/><strong>組件發生</strong></p>
+<p>零件是指的零件文件裝配件中的零部件對象。 實際幾何存儲在組件中部分並被引用，而不是被部件。</p>
+<p><strong>組件發生</strong></p>
 <p>零部件的出現是零部件文件中指向幾何的指針。 使用組件<br/>在不創建其他幾何圖形的情況下創建對零部件的一個或多個引用的實例。</p>
-<p><br/><strong>參考集</strong></p>
-<p><br/>參考集是零部件或子裝配體中的對象的命名集合，您可以<br/>用於簡化高層裝配中零部件的表示。</p>
+<p><strong>參考集</strong></p>
+<p>參考集是零部件或子裝配體中的對象的命名集合，您可以<br/>用於簡化高層裝配中零部件的表示。</p>
 <p>6.2組裝方法<br/>創建任何裝配體模型有兩種基本方法。</p>
-<p><br/>• 自上而下的方法<br/>•自下而上的方法</p>
-<p><br/>6.2.1自上而下的方法</p>
-<p><br/>通過這種方法，將創建裝配零件文件。首先，在該文件中創建組件。 然後各個零件均已建模。 這類建模在新設計中很有用。</p>
-<p><br/>6.2.2自下而上的方法</p>
-<p><br/>先傳統方式，然後添加到裝配中零件文件。 這項技術特別有用，以前的零件文件已經存在時設計，並且可以重複使用。</p>
+<p>• 自上而下的方法<br/>•自下而上的方法</p>
+<p>6.2.1自上而下的方法</p>
+<p>通過這種方法，將創建裝配零件文件。首先，在該文件中創建組件。 然後各個零件均已建模。 這類建模在新設計中很有用。</p>
+<p>6.2.2自下而上的方法</p>
+<p>先傳統方式，然後添加到裝配中零件文件。 這項技術特別有用，以前的零件文件已經存在時設計，並且可以重複使用。</p>
 <p>6.2.3混合與匹配</p>
-<p><br/>您可以將這兩種方法結合起來必要的，以增加裝配的靈活性設計需求。</p>
-<p><br/>6.3裝配與約束</p>
-<p><br/>導航儀裝配導航器和約束導航器，位於部件導航器的頂部<br/>屏幕左側的資源欄。 這些導航器向您展示了構成<br/>裝配體，包括零件層次結構，零件名稱，有關零件的信息，例如是否<br/>部分是只讀的，對像數和約束狀態。</p>
-<p><br/>6.4匹配約束</p>
-<p><br/>將零部件對象添加到裝配零件文件後，將對每個零部件對象進行配對<br/>與現有對象。 通過在裝配的零部件上分配配合條件，您可以在這些組件之間建立位置關係或約束。 這些關係是稱為交配約束。 配合條件由一個或多個配合約束組成。有不同的配合約束，如下所述：</p>
-<p><strong>觸摸/對齊</strong>：</p>
-<p>選擇要對齊的平面對象將是共面的，但平面的法線<br/>將指向同一方向。 圓柱物體的中心線將與每個<br/>其他。<br/><strong>同心</strong>：</p>
-<p>約束兩個組件的圓形或橢圓形邊緣，因此中心為<br/>重合併且邊緣的平面共面。<br/><strong>距離</strong>：</p>
-<p>在兩個對象之間建立一個+/-距離（偏移）值<br/>平行：</p>
-<p>所選對象將彼此平行。<br/>NX 12 for Engineering Design 125密蘇里科技大學<br/><strong>垂直</strong>：</p>
-<p>所選對象將彼此垂直。<br/><strong>鍵合</strong>：</p>
-<p>創建焊接並將零件焊接在一起以作為單個對象移動。<br/><strong>居中</strong>：</p>
-<p>對象將在其他對象之間居中，即沿槽定位圓柱體<br/>並將圓柱體在插槽中居中。<br/><strong>角度</strong>：</p>
-<p>這將在組件上選擇的兩個對象實體之間固定一個恆定的角度<br/>組裝。</p>
+<p>可以將這兩種方法結合起來必要的，以增加裝配的靈活性設計需求。</p>
+<p>6.3裝配與約束</p>
+<p>導航儀裝配導航器和約束導航器，位於部件導航器的頂部<br/>屏幕左側的資源欄。 這些導航器向您展示了構成<br/>裝配體，包括零件層次結構，零件名稱，有關零件的信息，例如是否<br/>部分是只讀的，對像數和約束狀態。</p>
+<p>6.4匹配約束</p>
+<p>將零部件對象添加到裝配零件文件後，將對每個零部件對象進行配對<br/>與現有對象。 通過在裝配的零部件上分配配合條件，您可以在這些組件之間建立位置關係或約束。 這些關係是稱為交配約束。 配合條件由一個或多個配合約束組成。有不同的配合約束，如下所述：</p>
+<p><strong>觸摸/對齊</strong>：選擇要對齊的平面對象將是共面的，但平面的法線<br/>將指向同一方向。 圓柱物體的中心線將與每個<br/>其他。<br/><strong></strong></p>
+<p><strong>同心</strong>：約束兩個組件的圓形或橢圓形邊緣，因此中心為<br/>重合併且邊緣的平面共面。<br/><strong></strong></p>
+<p><strong>距離</strong>：在兩個對象之間建立一個+/-距離（偏移）值<br/>平行：所選對象將彼此平行。<br/>NX 12 for Engineering Design 125密蘇里科技大學<br/><strong></strong></p>
+<p><strong>垂直</strong>：所選對象將彼此垂直。<br/><strong></strong></p>
+<p><strong>鍵合</strong>：創建焊接並將零件焊接在一起以作為單個對象移動。<br/><strong></strong></p>
+<p><strong>居中</strong>：對象將在其他對象之間居中，即沿槽定位圓柱體<br/>並將圓柱體在插槽中居中。<br/><strong></strong></p>
+<p><strong>角度</strong>：這將在組件上選擇的兩個對象實體之間固定一個恆定的角度<br/>組裝。</p>
 <p>6.5示例</p>
-<p><br/>我們將組裝葉輪組件對象。 您已經在其中建模了所有組件前幾章。 現在我們必須將它們插入組裝環境並應用將它們相對放置的約束。 組裝完成後，我們可以創建分解圖並準備繪圖。<br/><br/></p>
+<p>我們將組裝葉輪組件對象。 您已經在其中建模了所有組件前幾章。 現在我們必須將它們插入組裝環境並應用將它們相對放置的約束。 組裝完成後，我們可以創建分解圖並準備繪圖。</p>
 <p>6.5.1開始組裝<br/>➢創建一個新文件<br/>➢在模型選項卡下選擇裝配<br/>➢將單位設置為英寸<br/>➢命名為Impeller_assembly.prt</p>
 <p><img alt="" height="286" src="/images/nx6-5.PNG" width="346"/></p>
 <p>或者，如果您在“建模應用程序”中並想要開始組裝，<br/>➢在應用程序選項卡中打開程序集選項，然後會出現一個新的程序集選項卡</p>
 <p><img alt="" height="132" src="/images/or.PNG" width="343"/></p>
 <p>在組件選項中，<br/>•“添加”選項添加已創建其零件文件的新零部件對象。<br/>•“新建”可讓您在裝配文件中創建新的零件幾何體<br/>正在使用自頂向下方法進行組裝。裝配約束允許您創建裝配約束，而移動零部件允許<br/>您可以在裝配中的任何位置重新定位零部件</p>
 <p>6.5.2添加組件和約束</p>
-<p><br/>➢選擇添加<br/>右側顯示的對話框將彈出。 您可以從現有文件中選擇零件文件（應該已經<br/>顯示在“已加載的零件”選項卡中），也可以加載零件文件使用對話框中的打開文件選項。 這將加載選定的零件文件進入“加載的零件”對話框。<br/>➢單擊打開圖標並選擇文件<br/>Impeller_upper-casing.prt<br/>➢在零件名稱對話框中單擊確定。然後我們需要設置一個位置來放置坐標系第一部分的 在位置組框中，保持“裝配位置”選項的默認“捕捉”。<br/>➢單擊選擇對象<br/>現在您應該可以在透明模式下看到零件了，如右圖所示。<br/>➢單擊指向對話框圖標並創建<br/>[0，0，0]的坐標<br/>➢單擊確定退出點對話框<br/>注意：可以隨意使用“循環方向”選項來設置不同的方向。</p>
+<p>➢選擇添加<br/>右側顯示的對話框將彈出。 您可以從現有文件中選擇零件文件（應該已經<br/>顯示在“已加載的零件”選項卡中），也可以加載零件文件使用對話框中的打開文件選項。 這將加載選定的零件文件進入“加載的零件”對話框。<br/>➢單擊打開圖標並選擇文件<br/>Impeller_upper-casing.prt<br/>➢在零件名稱對話框中單擊確定。然後我們需要設置一個位置來放置坐標系第一部分的 在位置組框中，保持“裝配位置”選項的默認“捕捉”。<br/>➢單擊選擇對象<br/>現在您應該可以在透明模式下看到零件了，如右圖所示。<br/>➢單擊指向對話框圖標並創建<br/>[0，0，0]的坐標<br/>➢單擊確定退出點對話框<br/>注意：可以隨意使用“循環方向”選項來設置不同的方向。</p>
 <p><img alt="" height="415" src="/images/6-5-2.PNG" width="199"/></p>
 <p></p><h2>inventor</h2>
 <p><img alt="" height="235" src="/images/inven.PNG" width="235"/></p>

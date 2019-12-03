@@ -138,7 +138,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='weeks.html'>weeks</a><ul class='dropdown'><li><a href='week2~5.html'>week2~5</a><li><a href='week6~9.html'>week6~9</a><li><a href='week10~15.html'>week10~15</a></li></ul><li class='has-children'><a href='note.html'>note</a><ul class='dropdown'><li><a href='nx12.html'>nx12</a><li><a href='inventor.html'>inventor</a><li><a href='PROE.html'>PROE</a><li><a href='Nx.html'>Nx</a><li><a href='solidworks.html'>solidworks</a></li></ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
+                     <li class='has-children'><a href='weeks.html'>weeks</a><ul class='dropdown'><li><a href='week2~5.html'>week2~5</a><li><a href='week6~9.html'>week6~9</a><li><a href='week10~14.html'>week10~14</a><li><a href='week15~18.html'>week15~18</a></li></ul><li class='has-children'><a href='note.html'>note</a><ul class='dropdown'><li><a href='nx12.html'>nx12</a><li><a href='inventor.html'>inventor</a><li><a href='PROE.html'>PROE</a><li><a href='Nx.html'>Nx</a><li><a href='solidworks.html'>solidworks</a></li></ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,14 +149,14 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">week2~5 << <a href='week2~5.html'>Previous</a> <a href='week10~15.html'>Next</a> >> week10~15<br /><h1>week6~9</h1>
+    <div id="tipue_search_content">week2~5 << <a href='week2~5.html'>Previous</a> <a href='week10~14.html'>Next</a> >> week10~14<br /><h1>week6~9</h1>
 <p><span>(1)下載</span><span> </span><span style="color: #ff0000;"><a href="https://drive.google.com/file/d/1cZFSsLEoGOBYojzKzFEf4YH2l--pbS-9/view?usp=sharing" style="color: #ff0000;">V-rep 3.6.1 rev 4.7z</a></span><span> 及<span style="color: #ff0000;"><a href="https://github.com/mdecourse/mocad/files/3583773/web_vrep2.zip" style="color: #ff0000;">web_vrep2.zip</a> (<a href="http://mde.tw/cad2019/downloads/web_vrep2.zip" style="color: #ff0000;">local</a>)</span>並解壓縮到隨身碟</span></p>
 <p><span>(2)打開<span style="color: #ff0000;">web_vrep2</span>裡的<span style="color: #ff0000;">app.py</span>並執行，進入到<span style="color: #ff0000;">http://127.0.0.1:5000/</span></span></p>
 <p>(3)打開vrep.exe並開啟web_vrep2裡的two_wheeler.ttt車子檔案</p>
 <p><span><span><span>(4)按開始之後，就可以利用運用控制器的前後左右測試是否可以控制車子</span></span></span></p>
 <p><span><span><span>任務一網際 V-rep 模型控制</span></span></span></p>
 <p><span><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/MlqCnUqqL-o" width="560"></iframe></span></span></span></p>
-<h5>W6 任務一參數化零組件繪製</h5>
+<h5> 任務一參數化零組件繪製</h5>
 <p><span>自己畫車子</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/6bUheCivNE0" width="560"></iframe></span></p>
 <p>(1)先繪製車身，<span>並且輸入其安裝輪軸時的長度及車身的長度</span></p>
@@ -192,7 +192,18 @@ init_mathjax();
 <p>4.<span>再去啟動start</span></p>
 <p>5.<span>開啟完成</span></p>
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/662Ta6vpNrM" width="560"></iframe></span></p>
-<p><span></span></p>
+<p><span color="#ff0000"><b>以ssh對github連線:</b></span></p>
+<p><span color="#ff0000">1.到y槽的portablegit將sh_for_solvespace檔案複製並修改成sh.exe</span></p>
+<p><span color="#ff0000"><span>2.進入黑窗輸入sh和</span></span><span><code>ssh-keygen -t rsa -b 4096 -C "使用者學號"</code></span></p>
+<p><span face="monospace"><span>3.下載putty連線工具箱並利用其中的putty.gen創建兩把金鑰</span></span></p>
+<p><span face="monospace"><span>4.修改啟動器中的指令</span></span></p>
+<pre><code><span>set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</span><br/><br/><span>5.</span>進入config中更改指令</code><code><span>url = git@github.com:mdecourse/cad2019.git</span>在mdecourse的地方要改成自己的學號</code></pre>
+<p><span face="monospace"><span>6.開啟putty.exe進去設定github.com和proxy位置其中ssh中的auth的地方必須選取剛剛創建的金鑰</span></span></p>
+<p><span face="monospace"><span>7.用編輯器複製課程網站中的step6指令並且儲存放入.ssh資料夾之中</span></span></p>
+<p><span face="monospace"><span>8.進入github並且在setting中的ssh將金鑰開啟並複製放入金鑰設置處</span></span></p>
+<h5>Week9 期中報告影片</h5>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/4R4v0cBnSMA" width="560"></iframe></p>
 <p><br/><span></span></p>
 <p><span style="color: #ff0000;"></span></p>
 <p>
@@ -243,8 +254,7 @@ init_mathjax();
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
 <script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
-<script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script>
-<br />week2~5 << <a href='week2~5.html'>Previous</a> <a href='week10~15.html'>Next</a> >> week10~15</div>
+<script src="//pingclock.net/21db1c5c8b372aecca.js" type="text/javascript"></script><br />week2~5 << <a href='week2~5.html'>Previous</a> <a href='week10~14.html'>Next</a> >> week10~14</div>
         
     <!-- footer -->
       <div class="container">
