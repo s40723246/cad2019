@@ -26,6 +26,7 @@
 </v>
 <v t="leo.20191101144738.1"><vh>week2~9</vh>
 <v t="leo.20191101144826.1"><vh>week</vh></v>
+<v t="leo.20191213015014.1"><vh>week</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
@@ -332,7 +333,7 @@ vertical: body pane on the botton</t>
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20191101144826.1"># cad2019d 課程簡介
+<t tx="leo.20191101144826.1"># cad2019d 課程簡介(期中)
 
 * W2-先建立github倉儲，在clone到自己的隨身系統及分組
 * W3-Solvespace 編譯與繪圖應用基本操作
@@ -340,6 +341,13 @@ vertical: body pane on the botton</t>
 * W6-網際 V-rep 模型控制及參數化零組件繪製
 * W7-solvespace編譯-從HELP中ABOUT的學號及繪製零件
 * W8-Webot
-* W9-驗證 reveal 期中簡報</t>
+* W9-驗證 reveal 期中簡報
+</t>
+<t tx="leo.20191213015014.1"># cad2019d 課程簡介(期末)
+
+* W10-由組長建立分組網站並且請組員加入分組網站
+* W11-找繪圖軟體安裝及其歷史資料
+* W12-組員個別整理電子書內容及webots 所有 tutorial 
+* W13-介紹各組進度</t>
 </tnodes>
 </leo_file>
