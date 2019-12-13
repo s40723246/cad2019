@@ -18,21 +18,54 @@
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
 <v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
+<v t="leo.20191213144237.1"><vh>封面投影片</vh>
+<v t="leo.20191213144237.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20191213150029.1"><vh>分組</vh>
+<v t="leo.20191213150029.2"><vh>week</vh></v>
+</v>
+<v t="leo.20191213151238.1"><vh>評分</vh>
+<v t="leo.20191213151238.2"><vh>評分機制</vh></v>
+</v>
 <v t="leo.20191101144738.1"><vh>week2~9</vh>
 <v t="leo.20191101144826.1"><vh>week</vh></v>
 </v>
 <v t="leo.20191213143935.1"><vh>week10~14</vh>
 <v t="leo.20191213143935.3"><vh>week</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20191213144237.1"><vh>封面投影片</vh>
-<v t="leo.20191213144237.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20191213152656.1"><vh>week1</vh>
+<v t="leo.20191213152656.2"><vh>week1-1</vh></v>
 </v>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20191213152359.1"><vh>week3</vh>
+<v t="leo.20191213152359.2"><vh>week3-1</vh></v>
+</v>
+<v t="leo.20191213153119.1"><vh>week5</vh>
+<v t="leo.20191213153119.2"><vh>week5-1</vh></v>
+</v>
+<v t="leo.20191213152115.1"><vh>week6</vh>
+<v t="leo.20191213152115.2"><vh>week6-1</vh></v>
+</v>
+<v t="leo.20191213153401.1"><vh>week7</vh>
+<v t="leo.20191213153401.2"><vh>week7-1</vh></v>
+</v>
+<v t="leo.20191213153619.1"><vh>week8</vh>
+<v t="leo.20191213153619.2"><vh>week8-1</vh></v>
+</v>
+<v t="leo.20191213153850.1"><vh>week9</vh>
+<v t="leo.20191213153850.2"><vh>week9-1</vh></v>
+</v>
+<v t="leo.20191213154005.1"><vh>week10</vh>
+<v t="leo.20191213154005.2"><vh>week10-1</vh></v>
+</v>
+<v t="leo.20191213154247.1"><vh>week12</vh>
+<v t="leo.20191213154247.2"><vh>week12-1</vh></v>
 </v>
 <v t="leo.20191213144252.1"><vh>快捷鍵</vh>
 <v t="leo.20191213144252.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
@@ -303,7 +336,7 @@ vertical: body pane on the botton</t>
 * W5-Solvespace debugger編譯與繪圖示範
 * W6-網際 V-rep 模型控制及參數化零組件繪製
 * W7-solvespace編譯-從HELP中ABOUT的學號及繪製零件
-* W8-Webot
+* W8-Webot及revele更新
 * W9-驗證 reveal 期中簡報
 </t>
 <t tx="leo.20191213143935.1">&lt;section data-markdown&gt;
@@ -357,6 +390,137 @@ Created by [鄭竣元](https://s40723246.github.io/cad2019/content/index.html)
 * 按 b 或 . 鍵可以切換螢幕黑屏 (black)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
+</t>
+<t tx="leo.20191213150029.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213150029.2">## cad2019bg2 期末亂數分組
+
+#### 我是第二組
+#### 以下為組員及其倉儲
+[cad2019bg2 網站](https://s40723221.github.io/cad2019bg2/content/index.html)
+##### [40723205 王立瑋](https://s40723205.github.io/cad2019/content/index.html)
+##### [40723221 邱正宇](https://s40723221.github.io/cad2019/content/index.html)
+##### [40723228 郭倞](https://s40723228.github.io/cad2019/content/index.html)
+##### [40723229 陳羽泓](https://s40723229.github.io/cad2019/content/index.html)
+##### [40723235 馮寬永](https://s40723235.github.io/cad2019)
+##### [40723240 楊朝有](https://s40723240.github.io/cad2019/content/index.html)
+##### [40723247 賴冠勛](https://s40723247.github.io/cad2019/content/index.html)
+##### [40723250 羅村偉](https://s40723250.github.io/cad2019/content/index.html)</t>
+<t tx="leo.20191213151238.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213151238.2">## 本次評分課程標準
+####學員出席 (10%)
+
+####個人倉儲與網站查驗 (20%)
+
+####Task1: 參數式繪圖軟體 Solvespace 編譯、零組件繪圖與應用 (10%)
+
+####Task2: MCAD 套件安裝與設定, 零組件繪圖、轉檔與 CAE 工程分析 (10%)
+
+####Task3: Rover 零組件轉入 V-rep 與 Webots 執行機電控制系統設計 (20%)
+
+####Project: 機電資整合分組專案執行 (30%)
+##### [評分方式:每週自評與互評表單](https://forms.gle/raTtrfjv8cMMVSZd6)
+</t>
+<t tx="leo.20191213152115.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213152115.2">### week6
+#### ◎網際 V-rep 模型控制及參數化零組件繪製
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MlqCnUqqL-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213152359.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213152359.2">### week3
+#### ◎Solvespace debugger編譯
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Jj0v_tqNkfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213152656.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213152656.2">### week1
+#### ◎更新完網站的推送過程
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nKEyDM4F4O8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213153119.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213153119.2">### week5
+#### ◎Solvespace 零件繪製
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-CkVdOC1xAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213153401.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213153401.2">### week7
+#### ◎Solvespace 從help中改學號
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YAG2UPsckd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213153619.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213153619.2">### week8
+#### ◎revele更新操作
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1BveYre88K0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213153850.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213153850.2">### week9
+#### ◎導入webot啟動過程
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/662Ta6vpNrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213154005.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213154005.2">### week10
+#### ◎編譯GitExtensions及上傳過程
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Cy3PbT16VNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191213154247.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213154247.2">### week12
+#### ◎Webots Tutorial-操作過程
+#### [webot簡報](https://cyberbotics.com/doc/guide/tutorials)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/REjdkjh7kxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
