@@ -18,19 +18,21 @@
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
 <v t="leo.20180902120523.8"><vh>slides div</vh>
-<v t="leo.20180902120523.9"><vh>封面投影片</vh>
-<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
-</v>
 <v t="leo.20191101144738.1"><vh>week2~9</vh>
 <v t="leo.20191101144826.1"><vh>week</vh></v>
-<v t="leo.20191213015014.1"><vh>week</vh></v>
+</v>
+<v t="leo.20191213143935.1"><vh>week10~14</vh>
+<v t="leo.20191213143935.3"><vh>week</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
+<v t="leo.20191213144237.1"><vh>封面投影片</vh>
+<v t="leo.20191213144237.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+</v>
+<v t="leo.20191213144252.1"><vh>快捷鍵</vh>
+<v t="leo.20191213144252.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
@@ -49,37 +51,6 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## s40723246 網際內容管理
-
-### KMOLab
-
-&lt;small&gt;
-Created by [鄭竣元](https://s40723246.github.io/cad2019/content/index.html)
-&lt;/small&gt;
-
-[40723246 網誌](https://s40723246.github.io/cad2019/blog/index.html)
-
-
-</t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -154,8 +125,9 @@ make.start()
 <t tx="leo.20180902120523.19">## 使用 iframe 導入影片
 
 ### 導入影片 template
+#### 期中影片
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6bUheCivNE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4R4v0cBnSMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -242,15 +214,6 @@ CMSimfly 網際內容管理
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
 <t tx="leo.20180902120538.1"></t>
 <t tx="leo.20180902120538.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -333,7 +296,7 @@ vertical: body pane on the botton</t>
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20191101144826.1"># cad2019d 課程簡介(期中)
+<t tx="leo.20191101144826.1">### cad2019d 課程簡介 (期中)
 
 * W2-先建立github倉儲，在clone到自己的隨身系統及分組
 * W3-Solvespace 編譯與繪圖應用基本操作
@@ -343,11 +306,57 @@ vertical: body pane on the botton</t>
 * W8-Webot
 * W9-驗證 reveal 期中簡報
 </t>
-<t tx="leo.20191213015014.1"># cad2019d 課程簡介(期末)
+<t tx="leo.20191213143935.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20191213143935.3"># cad2019d 課程簡介 (期末)
 
 * W10-由組長建立分組網站並且請組員加入分組網站
 * W11-找繪圖軟體安裝及其歷史資料
 * W12-組員個別整理電子書內容及webots 所有 tutorial 
 * W13-介紹各組進度</t>
+<t tx="leo.20191213144237.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191213144237.2">## s40723246 網際內容管理
+
+### KMOLab
+
+&lt;small&gt;
+Created by [鄭竣元](https://s40723246.github.io/cad2019/content/index.html)
+&lt;/small&gt;
+
+[40723246 網誌](https://s40723246.github.io/cad2019/blog/index.html)
+
+
+</t>
+<t tx="leo.20191213144252.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191213144252.2"># 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
 </tnodes>
 </leo_file>
