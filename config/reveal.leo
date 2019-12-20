@@ -345,7 +345,7 @@ vertical: body pane on the botton</t>
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20191213143935.3"># cad2019d 課程簡介 (期末)
+<t tx="leo.20191213143935.3">### cad2019d 課程簡介 (期末)
 
 * W10-由組長建立分組網站並且請組員加入分組網站
 * W11-找繪圖軟體安裝及其歷史資料
