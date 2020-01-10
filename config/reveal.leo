@@ -61,6 +61,18 @@
 <v t="leo.20191213154247.1"><vh>week12</vh>
 <v t="leo.20191213154247.2"><vh>week12-1</vh></v>
 </v>
+<v t="leo.20200110115519.1"><vh>week14</vh>
+<v t="leo.20200110115519.2"><vh>week14-1</vh></v>
+</v>
+<v t="leo.20200110114750.1"><vh>week15</vh>
+<v t="leo.20200110114750.2"><vh>week15-1</vh></v>
+</v>
+<v t="leo.20200110115804.1"><vh>week16</vh>
+<v t="leo.20200110115804.2"><vh>week16-1</vh></v>
+</v>
+<v t="leo.20200110120022.1"><vh>week17</vh>
+<v t="leo.20200110120022.2"><vh>week17-1</vh></v>
+</v>
 <v t="leo.20191213144252.1"><vh>快捷鍵</vh>
 <v t="leo.20191213144252.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -397,38 +409,38 @@ Created by [鄭竣元](https://s40723246.github.io/cad2019/content/index.html)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20191213150029.2">## cad2019bg2 期末亂數分組
+<t tx="leo.20191213150029.2">### cad2019bg2 期末亂數分組
 
-#### 我是第二組
-#### 以下為組員及其倉儲
+##### 我是第二組
+##### 以下為組員及其倉儲
 [cad2019bg2 網站](https://s40723221.github.io/cad2019bg2/content/index.html)
-##### [40723205 王立瑋](https://s40723205.github.io/cad2019/content/index.html)
-##### [40723221 邱正宇](https://s40723221.github.io/cad2019/content/index.html)
-##### [40723228 郭倞](https://s40723228.github.io/cad2019/content/index.html)
-##### [40723229 陳羽泓](https://s40723229.github.io/cad2019/content/index.html)
+###### [40723205 王立瑋](https://s40723205.github.io/cad2019/content/index.html)
+###### [40723221 邱正宇](https://s40723221.github.io/cad2019/content/index.html)
+###### [40723228 郭倞](https://s40723228.github.io/cad2019/content/index.html)
+###### [40723229 陳羽泓](https://s40723229.github.io/cad2019/content/index.html)
 ##### [40723235 馮寬永](https://s40723235.github.io/cad2019)
 ##### [40723240 楊朝有](https://s40723240.github.io/cad2019/content/index.html)
-##### [40723247 賴冠勛](https://s40723247.github.io/cad2019/content/index.html)
-##### [40723250 羅村偉](https://s40723250.github.io/cad2019/content/index.html)</t>
+###### [40723247 賴冠勛](https://s40723247.github.io/cad2019/content/index.html)
+###### [40723250 羅村偉](https://s40723250.github.io/cad2019/content/index.html)</t>
 <t tx="leo.20191213151238.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20191213151238.2">## 本次評分課程標準
-####學員出席 (10%)
+<t tx="leo.20191213151238.2">### 本次評分課程標準
+######學員出席 (10%)
 
-####個人倉儲與網站查驗 (20%)
+###### 個人倉儲與網站查驗 (20%)
 
-####Task1: 參數式繪圖軟體 Solvespace 編譯、零組件繪圖與應用 (10%)
+###### Task1: 參數式繪圖軟體 Solvespace 編譯、零組件繪圖與應用 (10%)
 
-####Task2: MCAD 套件安裝與設定, 零組件繪圖、轉檔與 CAE 工程分析 (10%)
+###### Task2: MCAD 套件安裝與設定, 零組件繪圖、轉檔與 CAE 工程分析 (10%)
 
-####Task3: Rover 零組件轉入 V-rep 與 Webots 執行機電控制系統設計 (20%)
+###### Task3: Rover 零組件轉入 V-rep 與 Webots 執行機電控制系統設計 (20%)
 
-####Project: 機電資整合分組專案執行 (30%)
-##### [評分方式:每週自評與互評表單](https://forms.gle/raTtrfjv8cMMVSZd6)
+###### Project: 機電資整合分組專案執行 (30%)
+####### [評分方式:每週自評與互評表單](https://forms.gle/raTtrfjv8cMMVSZd6)
 </t>
 <t tx="leo.20191213152115.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -522,5 +534,48 @@ Created by [鄭竣元](https://s40723246.github.io/cad2019/content/index.html)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/REjdkjh7kxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
+<t tx="leo.20200110114750.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200110114750.2">### week15
+#### ◎簡介自己倉儲
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VCCIsJUSYXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110115519.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200110115519.2">### week14
+#### ◎Webots Tutorial-2-操作過程
+#### [webot簡報](https://cyberbotics.com/doc/guide/tutorial-2-modification-of-the-environment)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/psW0U8kAq-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110115804.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200110115804.2">### week16
+#### ◎solvespace導入webot
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/flLLOELKO7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110120022.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20200110120022.2">### week17
+##### ◎繪製solvespace 各個零件檔1.桿子2.車體3.輪子
+
+##### 分組text[翻譯資料](http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm )
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0LYQDLtd1cg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
